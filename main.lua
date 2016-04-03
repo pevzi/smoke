@@ -33,9 +33,11 @@ end
 function love.draw()
     canvas:renderTo(function ()
         love.graphics.clear()
+        love.graphics.setBlendMode("alpha", "alphamultiply")
         love.graphics.draw(smoke)
     end)
 
-    love.graphics.draw(canvas)
     love.graphics.draw(smoke, love.graphics.getWidth() / 3)
+    love.graphics.setBlendMode("alpha", "premultiplied")
+    love.graphics.draw(canvas)
 end
