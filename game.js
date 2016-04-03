@@ -172,6 +172,6 @@ Module.expectedDataFileDownloads++;
   }
 
  }
- loadPackage({"files": [{"audio": 0, "start": 0, "crunched": 0, "end": 1067, "filename": "/main.lua"}, {"audio": 0, "start": 1067, "crunched": 0, "end": 1404, "filename": "/smoke.png"}], "remote_package_size": 1404, "package_uuid": "adc0d136-4e2c-4156-bf23-75e564ac3183"});
+ loadPackage({"files": [{"audio": 0, "start": 0, "crunched": 0, "end": 1185, "filename": "/main.lua"}, {"audio": 0, "start": 1185, "crunched": 0, "end": 1522, "filename": "/smoke.png"}], "remote_package_size": 1522, "package_uuid": "0926f2f9-064d-4c82-ab48-95600a91514f"});
 
 })();
